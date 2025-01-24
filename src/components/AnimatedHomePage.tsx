@@ -12,14 +12,12 @@ interface AnimatedHomePageProps {
 export default function AnimatedHomePage({ session }: AnimatedHomePageProps) {
   return (
     <div className="flex flex-col items-center">
-      {/* Placeholder Features Section */}
       <section className="mt-12 grid w-full max-w-6xl grid-cols-1 gap-8 px-4 sm:grid-cols-2 lg:grid-cols-3">
         <FeatureCard />
         <FeatureCard />
         <FeatureCard />
       </section>
 
-      {/* Call-to-Action Section */}
       <section className="w-full bg-green-50 py-12 md:py-24 lg:py-32 text-center">
         <h2 className="text-3xl font-bold md:text-4xl">
           Ready to take the next step?
